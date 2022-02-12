@@ -13,7 +13,7 @@ const Section = () => {
       My personality
       </h2>
       <p className="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-      Im a quiet person, like to think many aspects of something, I like to learn old things, I'm good at sports, I always have the will to be number 1!
+      Im a quiet person, like to think many aspects of something, I like to learn old things, Im good at sports, I always have the will to be number 1!
       </p>
       <ul className="p-0 m-0 leading-6 border-0 border-gray-300">
         <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
