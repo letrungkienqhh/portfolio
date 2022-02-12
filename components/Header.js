@@ -8,12 +8,14 @@ const Header = () => {
             {/* navbar */}
             <nav className="flex justify-between bg-gray-200 text-gray-900 w-screen">
               <div className="px-5 xl:px-12 py-6 flex w-full items-center">
-              <Link href="#" ><h1 className="font-bold text-xl focus:ring focus:ring-blue-200 focus:ring-opacity-25 outline-none rounded-lg">KIEN DZ</h1></Link>
+              <Link href="#" >
+                <h1 className="font-bold text-xl focus:ring focus:ring-blue-200 focus:ring-opacity-25 outline-none rounded-lg">KIEN DZ</h1>
+              </Link>
                 
                 {/* Nav Links */}
                 <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
-                  <li><Link href="/" className="hover:text-pink-500">Home</Link></li>
-                  <li><Link href="/blog" className="hover:text-pink-500" >Blog</Link></li>
+                  <li><Link href="/" className="hover:text-pink-500"><a>Home</a></Link></li>
+                  <li><Link href="/blog" className="hover:text-pink-500" ><a>Blog</a></Link></li>
                   
                 </ul>
                 {/* Header Icons */}
