@@ -10,7 +10,7 @@ const Timeline = () => {
         <p className="text-sm md:text-base text-gray-50 mb-4">
             Its been a long way and i hope to write it more epic, more wonderful!!!
         </p>
-        <Link href="/blog"><a> className="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white hover:scale-105 rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
+        <Link href="/blog"><a className="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white hover:scale-105 rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
           See my photo</a></Link>
       </div>
       <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
