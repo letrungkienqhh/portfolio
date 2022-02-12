@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link'
 const Timeline = () => {
   return  <section className="grid ">
   <div className="bg-gradient-to-b from-blue-300 to-blue-500 text-white py-8">
@@ -8,10 +8,10 @@ const Timeline = () => {
         <p className="ml-2 text-yellow-300 uppercase tracking-loose">Time Line</p>
         <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">This is my path</p>
         <p className="text-sm md:text-base text-gray-50 mb-4">
-            It's been a long way and i hope to write it more epic, more wonderful!!!
+            Its been a long way and i hope to write it more epic, more wonderful!!!
         </p>
-        <a href="/blog" className="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white hover:scale-105 rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
-          See my photo</a>
+        <Link href="/blog"><a> className="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white hover:scale-105 rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
+          See my photo</a></Link>
       </div>
       <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
         <div className="container mx-auto w-full h-full">
@@ -34,7 +34,7 @@ const Timeline = () => {
                 <p className="mb-3 text-base text-yellow-300">July, 2013</p>
                 <h4 className="mb-3 font-bold text-lg md:text-2xl">Quốc Học Huế High School</h4>
                 <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                It's a famous school, the dream of many students, I never regret studying there. My major was IT.
+                Its a famous school, the dream of many students, I never regret studying there. My major was IT.
                 </p>
               </div>
             </div>
@@ -89,10 +89,13 @@ const Timeline = () => {
     </div>
   </div>
   <div className="flex ">
-    <a href="#" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded mx-auto my-4 animate-pulse">
-          Back to top</a>
-      <a href="/blog" className="animate-ping bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded mx-auto my-4 animate-pulse">
-          My photo</a>
+      <Link href="#">
+      <a  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded mx-auto my-4 animate-pulse">
+          Back to top</a></Link>
+          <Link href="/blog">
+          <a  className="animate-ping bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded mx-auto my-4 animate-pulse">
+          My photo</a></Link>
+    
   </div>
   
   

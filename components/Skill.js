@@ -13,7 +13,7 @@ const Section = () => {
       My personality
       </h2>
       <p className="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-      I'm a quiet person, like to think many aspects of something, I like to learn old things, I'm good at sports, I always have the will to be number 1!
+      Im a quiet person, like to think many aspects of something, I like to learn old things, I'm good at sports, I always have the will to be number 1!
       </p>
       <ul className="p-0 m-0 leading-6 border-0 border-gray-300">
         <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
@@ -61,7 +61,7 @@ const Section = () => {
         <div className="max-w-7xl px-10 mx-auto sm:text-center">
           <p className="text-blue-500 font-medium uppercase">What i used</p>
           <h2 className="font-bold text-3xl sm:text-4xl lg:text-5xl mt-3">Creating website</h2>
-          <p className="mt-4 text-gray-500 text-base sm:text-xl lg:text-2xl">I'm a Fresher-Engineer and built some easy website, API, games with these techniques.
+          <p className="mt-4 text-gray-500 text-base sm:text-xl lg:text-2xl">Im a Fresher-Engineer and built some easy website, API, games with these techniques.
           <br className="lg:hidden hidden sm:block" /> Check them out below 👇</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 my-12 sm:my-16">
             <div className="rounded-lg py-10 flex flex-col items-center justify-center shadow-lg border border-gray-100">
