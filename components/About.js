@@ -6,11 +6,11 @@ const SectionHome = () => {
     
    
         
-    <section className="relative pt-12 bg-blueGray-50">
+    <section className="relative pt-12 bg-blueGray-50 ">
           
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-              <img alt="..." className="max-w-full height-auto rounded-lg shadow-lg" src="https://scontent.fkix2-1.fna.fbcdn.net/v/t1.6435-9/78609327_2461779464040219_3590112336083419136_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=pb-QKK3fOPEAX_uepbl&_nc_ht=scontent.fkix2-1.fna&oh=00_AT_KvFpYFz5qZbASR9yYpcjNdHb51Qq9i6Z6aHqXYraufQ&oe=62270CD4" />
+              <img alt="..." className="max-w-full height-auto rounded-lg shadow-lg rounded-full" src="https://scontent.fkix2-1.fna.fbcdn.net/v/t1.6435-9/78609327_2461779464040219_3590112336083419136_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=pb-QKK3fOPEAX_uepbl&_nc_ht=scontent.fkix2-1.fna&oh=00_AT_KvFpYFz5qZbASR9yYpcjNdHb51Qq9i6Z6aHqXYraufQ&oe=62270CD4" />
             </div>
             <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
               <div className="md:pr-12">

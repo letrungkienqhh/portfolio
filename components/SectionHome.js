@@ -5,13 +5,13 @@ const SectionHome = () => {
   return (
    
     
-    <div className="bg-white text-black py-20">
+    <div className="   border-b-2 text-black py-20  bg-gradient-to-b from-blue-300 to-blue-500 ">
       <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
         <div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
           <h1 className="text-3xl md:text-5xl p-2 text-yellow-300 tracking-loose animate-[wiggle_1s_ease-in-out_infinite] scale-150 transform-gpu">WELCOME</h1>
           <h2 className="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2"> I am Kiên
           </h2>
-          <p className="text-sm md:text-base text-gray-500 mb-4">I am a young engineer with a passion for designing educational and environmental websites. Using AI and blockchain are challenges I want to experience and put them on my websites..</p>
+          <p className="text-sm md:text-base text-white mb-4">I am a young engineer with a passion for designing educational and environmental websites. Using AI and blockchain are challenges I want to experience and put them on my websites..</p>
            <div className="flex">
                     <Link href="#">
                       
@@ -22,7 +22,7 @@ const SectionHome = () => {
                     </Link>
                     <Link  href="https://www.instagram.com/kienletrung304/">
                       
-                          <img className="h-6 w-6 fill-current text-blue-600 mr-6" src="https://img.icons8.com/windows/32/000000/instagram-new.png"/>
+                          <img className="h-6 w-6 fill-current text-blue-600 mr-6 hover:cursor-pointer" src="https://img.icons8.com/windows/32/000000/instagram-new.png"/>
                      
                     </Link>
                     <Link href="#">
@@ -32,29 +32,30 @@ const SectionHome = () => {
                     </Link>
                     <Link  href="https://github.com/letrungkienqhh">
                    
-                          <img className="h-6 w-6 fill-current text-blue-600 mr-6"  src="https://img.icons8.com/material-outlined/24/000000/github.png"/>
+                          <img className="h-6 w-6 fill-current text-blue-600 mr-6 hover:cursor-pointer"  src="https://img.icons8.com/material-outlined/24/000000/github.png"/>
                       
                     </Link>
                 </div>
         </div>
         <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
-          <div className="h-48 flex flex-wrap content-center">
-            <div>
+          <div className="h-48 flex flex-wrap content-center ">
+            {/* <div>
               <img className="inline-block mt-28 hidden xl:block" src="https://user-images.githubusercontent.com/54521023/116969935-c13d5b00-acd4-11eb-82b1-5ad2ff10fb76.png" /></div>
-            <div>
-              <img className="inline-block mt-24 md:mt-0 p-8 md:p-0" src="https://user-images.githubusercontent.com/54521023/116969931-bedb0100-acd4-11eb-99a9-ff5e0ee9f31f.png" /></div>
-            <div>
+            <div> */}
+              
+              <a className="inline-block mt-28 hidden lg:block mx-5"  href="https://www.animatedimages.org/cat-computer-56.htm"><img src="https://www.animatedimages.org/data/media/56/animated-computer-image-0139.gif" border="0" alt="animated-computer-image-0139" /></a>
+              <a className="inline-block mt-28 hidden lg:block mx-5" href="https://www.animatedimages.org/cat-computer-56.htm"><img src="https://www.animatedimages.org/data/media/56/animated-computer-image-0040.gif" border="0" alt="animated-computer-image-0040" /></a>
+              <a className="inline-block mt-28 hidden lg:block mx-5" href="https://www.animatedimages.org/cat-computer-56.htm"><img src="https://www.animatedimages.org/data/media/56/animated-computer-image-0009.gif" border="0" alt="animated-computer-image-0009" /></a>
+            {/* <div>
               <img className="inline-block mt-28 hidden lg:block" src="https://user-images.githubusercontent.com/54521023/116969939-c1d5f180-acd4-11eb-8ad4-9ab9143bdb50.png" /></div>
-          </div>
+          </div> */}
         </div>
       </div>
-    </div>
+      
+    </div></div>
   
    
         
-   
- 
-    
-    
+  
 )}
 export default SectionHome

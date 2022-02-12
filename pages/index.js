@@ -11,9 +11,9 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
     
-    <div className="">
+    <div className="bg-gray-50">
         <Header/>
-        <div  className="max-w-7xl grid mx-auto my-2 p-2 shadow-md">
+        <div  className="max-w-7xl grid mx-auto my-2 p-2 shadow-md ">
              <SectionHome/>
              
              <About/>
