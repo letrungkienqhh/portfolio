@@ -11,8 +11,9 @@ const blog = () => {
           
          
       <Blog/>
-      <Footer/>
+    
     </div>
+    <Footer/>
   </div>
   )
 };

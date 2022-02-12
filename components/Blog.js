@@ -8,7 +8,7 @@ const Blog = () => {
          
           <h2 className="font-bold text-3xl sm:text-4xl lg:text-5xl mt-3 text-pink">My Photo Blog</h2>
           <p className="mt-4 text-gray-500 text-base sm:text-xl lg:text-2xl">Pictures saved our memories <span className="animate-bounce">👇</span><span className="animate-[wiggle_1s_ease-in-out_infinite]">📸</span></p>
-          <hr clas/>
+          <hr />
                         <div class="carousel-wrapper mt-5 max-w-2xl mx-auto mb-11 shadow-slate-50">
                             
                             <Carousel infiniteLoop useKeyboardArrows autoPlay>
@@ -29,7 +29,7 @@ const Blog = () => {
                             <h2 className="text-3xl lg:text-4xl tracking-tight font-semibold leading-8 lg:leading-9 text-gray-800 dark:text-white dark:text-white">Kien in highschool</h2>
                         </div>
                         <hr className="text-bold text-black"/>
-                        <hr clas/>
+                        <hr />
                         <div class="carousel-wrapper mt-5 max-w-2xl mx-auto mb-11">
                             
                             <Carousel infiniteLoop useKeyboardArrows autoPlay>
@@ -67,8 +67,8 @@ const Blog = () => {
                             </Carousel>
                             <h2 className="text-3xl lg:text-4xl tracking-tight font-semibold leading-8 lg:leading-9 text-gray-800 dark:text-white dark:text-white">Kien in Philippines</h2>
                         </div>
-                        <hr clas/>
-                        <hr clas/>
+                        <hr className="text-bold text-black"/>
+                        <hr />
                         <div class="carousel-wrapper mt-5 max-w-2xl mx-auto mb-11">
                        
                             <Carousel infiniteLoop useKeyboardArrows autoPlay>
@@ -98,8 +98,8 @@ const Blog = () => {
                             </Carousel>
                             <h2 className="text-3xl lg:text-4xl tracking-tight font-semibold leading-8 lg:leading-9 text-gray-800 dark:text-white dark:text-white">Kien in University</h2>
                         </div>
-                        <hr clas/>
-                        <hr clas/>
+                        <hr className="text-bold text-black"/>
+                        <hr />
                         <div class="carousel-wrapper mt-5 max-w-2xl mx-auto mb-11">
                             
                             <Carousel infiniteLoop useKeyboardArrows autoPlay>
