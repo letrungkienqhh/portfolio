@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const SectionHome = () => {
@@ -12,20 +13,28 @@ const SectionHome = () => {
           </h2>
           <p className="text-sm md:text-base text-gray-500 mb-4">I am a young engineer with a passion for designing educational and environmental websites. Using AI and blockchain are challenges I want to experience and put them on my websites..</p>
            <div className="flex">
-                    <a href="#">
-                        <svg class="h-6 w-6 fill-current text-blue-600 mr-6" viewBox="0 0 512 512">
-                            <path d="M455.27,32H56.73A24.74,24.74,0,0,0,32,56.73V455.27A24.74,24.74,0,0,0,56.73,480H256V304H202.45V240H256V189c0-57.86,40.13-89.36,91.82-89.36,24.73,0,51.33,1.86,57.51,2.68v60.43H364.15c-28.12,0-33.48,13.3-33.48,32.9V240h67l-8.75,64H330.67V480h124.6A24.74,24.74,0,0,0,480,455.27V56.73A24.74,24.74,0,0,0,455.27,32Z"/>
-                        </svg>
-                    </a>
-                    <a href="https://www.instagram.com/kienletrung304/">
-                        <img className="h-6 w-6 fill-current text-blue-600 mr-6" src="https://img.icons8.com/windows/32/000000/instagram-new.png"/>
-                    </a>
-                    <a href="#">
-                        <img className="h-6 w-6 fill-current text-blue-600 mr-6" src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-gmail-social-media-justicon-flat-justicon.png"/>
-                    </a>
-                    <a href="https://github.com/letrungkienqhh">
-                        <img className="h-6 w-6 fill-current text-blue-600 mr-6"  src="https://img.icons8.com/material-outlined/24/000000/github.png"/>
-                    </a>
+                    <Link href="#">
+                      <a >
+                          <svg class="h-6 w-6 fill-current text-blue-600 mr-6" viewBox="0 0 512 512">
+                              <path d="M455.27,32H56.73A24.74,24.74,0,0,0,32,56.73V455.27A24.74,24.74,0,0,0,56.73,480H256V304H202.45V240H256V189c0-57.86,40.13-89.36,91.82-89.36,24.73,0,51.33,1.86,57.51,2.68v60.43H364.15c-28.12,0-33.48,13.3-33.48,32.9V240h67l-8.75,64H330.67V480h124.6A24.74,24.74,0,0,0,480,455.27V56.73A24.74,24.74,0,0,0,455.27,32Z"/>
+                          </svg>
+                      </a>
+                    </Link>
+                    <Link  href="https://www.instagram.com/kienletrung304/">
+                      <a>
+                          <img className="h-6 w-6 fill-current text-blue-600 mr-6" src="https://img.icons8.com/windows/32/000000/instagram-new.png"/>
+                      </a>
+                    </Link>
+                    <Link href="#">
+                      <a >
+                          <img className="h-6 w-6 fill-current text-blue-600 mr-6" src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-gmail-social-media-justicon-flat-justicon.png"/>
+                      </a>
+                    </Link>
+                    <Link  href="https://github.com/letrungkienqhh">
+                      <a>
+                          <img className="h-6 w-6 fill-current text-blue-600 mr-6"  src="https://img.icons8.com/material-outlined/24/000000/github.png"/>
+                      </a>
+                    </Link>
                 </div>
         </div>
         <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
