@@ -6,13 +6,17 @@ import Header from '../components/Header';
 const blog = () => {
   return (
     <div className="">
-      <Header/>
-      <div  className="max-w-7xl grid mx-auto my-2 p-2 shadow-md">
-          
-         
-      <Blog/>
+      <div className="">
+          <Header/>
+      </div>
     
-    </div>
+          <div className="px-2">
+             <Blog/>
+          </div>
+         
+          
+    
+    
     <Footer/>
   </div>
   )
